@@ -28,8 +28,5 @@ const generarExcusa = () => {
     generarAleatorio(when);
 
   document.getElementById("excuse").innerHTML = excusa;
-
-  // let btn = document.getElementById("btnExcuse");
-  // btn.addEventListener("click", generarExcusa);
 };
 generarExcusa();
